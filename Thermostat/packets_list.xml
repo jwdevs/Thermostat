@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+  <loop>false</loop>
+  <repeat_times>1</repeat_times>
+  <repeat_period>500</repeat_period>
+  <packets_list>
+    <packet name="temperature">
+      <payload>7B313B313B32302E317D7B313B313B32302E327D7B313B313B32302E357D7B313B313B32312E327D7B313B313B32312E32357D</payload>
+    </packet>
+    <packet name="time">
+      <payload>7B323B313431343837333930357D</payload>
+    </packet>
+    <packet name="time2">
+      <payload>7B323B313431343837353831317D</payload>
+    </packet>
+    <packet name="range1">
+      <payload>7B333B303B373B303B373B34303B31313B31303B32312E357D</payload>
+    </packet>
+    <packet name="range2">
+      <payload>7B333B303B373B313B31313B34303B31323B31303B32322E31357D</payload>
+    </packet>
+    <packet name="range3">
+      <payload>7B333B303B373B343B373B34303B31313B31303B32312E357D</payload>
+    </packet>
+    <packet name="default-temp">
+      <payload>7B343B303B373B32312E377D</payload>
+    </packet>
+    <packet name="force-on">
+      <payload>7B357D</payload>
+    </packet>
+    <packet name="force-off">
+      <payload>7B367D</payload>
+    </packet>
+    <packet name="reset-force">
+      <payload>7B377D</payload>
+    </packet>
+    <packet name="default-temp-nan">
+      <payload>7B343B303B373B6E616E7D</payload>
+    </packet>
+    <packet name="set-remote">
+      <payload>7B387D</payload>
+    </packet>
+    <packet name="set-local">
+      <payload>7B397D</payload>
+    </packet>
+    <packet name="temperature2">
+      <payload>7B313B313B31382E317D7B313B313B31392E327D7B313B313B31382E357D7B313B313B31362E327D7B313B313B31372E32357D</payload>
+    </packet>
+    <packet name="range4">
+      <payload>7B333B303B313B313B31323B33303B31353B31303B32302E307D</payload>
+    </packet>
+  </packets_list>
+</data>

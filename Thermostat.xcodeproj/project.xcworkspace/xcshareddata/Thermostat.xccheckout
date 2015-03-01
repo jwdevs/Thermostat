@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F4EF87F3-E0D4-4C7C-BEF0-CBCAA3079F5E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Thermostat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B660C164492C6EFB030B9B0DF7BE1E21B5A10D60</key>
+		<string>ssh://192.168.1.17:/volume1/git/BoilerController</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Thermostat.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B660C164492C6EFB030B9B0DF7BE1E21B5A10D60</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://192.168.1.17:/volume1/git/BoilerController</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B660C164492C6EFB030B9B0DF7BE1E21B5A10D60</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B660C164492C6EFB030B9B0DF7BE1E21B5A10D60</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Thermostat</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,1311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF53F6E319F97B480040B1FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F6E219F97B480040B1FD /* main.cpp */; };
+		EF53F6E519F97B480040B1FD /* LocalLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F6E419F97B480040B1FD /* LocalLibrary.cpp */; };
+		EF53F6E819F97B480040B1FD /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EF53F6E719F97B480040B1FD /* Makefile */; };
+		EF53F81219F97C980040B1FD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EF53F76719F97C970040B1FD /* README.md */; };
+		EF53F81319F97C980040B1FD /* rgb_lcd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F76819F97C970040B1FD /* rgb_lcd.cpp */; };
+		EF53F81419F97C980040B1FD /* SimpleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F77219F97C970040B1FD /* SimpleList.cpp */; };
+		EF53F81519F97C980040B1FD /* algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F77719F97C970040B1FD /* algorithm.cpp */; };
+		EF53F81619F97C980040B1FD /* associative_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F77919F97C970040B1FD /* associative_base.cpp */; };
+		EF53F81719F97C980040B1FD /* bitset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F77C19F97C970040B1FD /* bitset.cpp */; };
+		EF53F81819F97C980040B1FD /* char_traits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F78219F97C970040B1FD /* char_traits.cpp */; };
+		EF53F81919F97C980040B1FD /* complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F78719F97C970040B1FD /* complex.cpp */; };
+		EF53F81A19F97C980040B1FD /* del_op.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F79219F97C970040B1FD /* del_op.cpp */; };
+		EF53F81B19F97C980040B1FD /* del_opnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F79319F97C970040B1FD /* del_opnt.cpp */; };
+		EF53F81C19F97C980040B1FD /* del_opv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F79419F97C970040B1FD /* del_opv.cpp */; };
+		EF53F81D19F97C980040B1FD /* del_opvnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F79519F97C970040B1FD /* del_opvnt.cpp */; };
+		EF53F81E19F97C980040B1FD /* deque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F79719F97C970040B1FD /* deque.cpp */; };
+		EF53F81F19F97C980040B1FD /* eh_alloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F79819F97C970040B1FD /* eh_alloc.cpp */; };
+		EF53F82019F97C980040B1FD /* eh_globals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F79919F97C970040B1FD /* eh_globals.cpp */; };
+		EF53F82119F97C980040B1FD /* Jamfile in Sources */ = {isa = PBXBuildFile; fileRef = EF53F79C19F97C970040B1FD /* Jamfile */; };
+		EF53F82219F97C980040B1FD /* more.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F79D19F97C970040B1FD /* more.cpp */; };
+		EF53F82319F97C980040B1FD /* Jamfile in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7A219F97C970040B1FD /* Jamfile */; };
+		EF53F82419F97C980040B1FD /* exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7A519F97C970040B1FD /* exception.cpp */; };
+		EF53F82519F97C980040B1FD /* fstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7A719F97C970040B1FD /* fstream.cpp */; };
+		EF53F82619F97C980040B1FD /* func_exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7A919F97C970040B1FD /* func_exception.cpp */; };
+		EF53F82719F97C980040B1FD /* iomanip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7AD19F97C970040B1FD /* iomanip.cpp */; };
+		EF53F82819F97C980040B1FD /* ios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7AF19F97C970040B1FD /* ios.cpp */; };
+		EF53F82919F97C980040B1FD /* iostream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7B219F97C970040B1FD /* iostream.cpp */; };
+		EF53F82A19F97C980040B1FD /* istream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7B419F97C980040B1FD /* istream.cpp */; };
+		EF53F82B19F97C980040B1FD /* iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7B719F97C980040B1FD /* iterator.cpp */; };
+		EF53F82C19F97C980040B1FD /* Jamfile in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7B919F97C980040B1FD /* Jamfile */; };
+		EF53F82D19F97C980040B1FD /* limits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7BB19F97C980040B1FD /* limits.cpp */; };
+		EF53F82E19F97C980040B1FD /* list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7BD19F97C980040B1FD /* list.cpp */; };
+		EF53F82F19F97C980040B1FD /* locale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7BF19F97C980040B1FD /* locale.cpp */; };
+		EF53F83019F97C980040B1FD /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7C019F97C980040B1FD /* Makefile */; };
+		EF53F83119F97C980040B1FD /* map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7C219F97C980040B1FD /* map.cpp */; };
+		EF53F83219F97C980040B1FD /* new_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7C519F97C980040B1FD /* new_handler.cpp */; };
+		EF53F83319F97C980040B1FD /* new_op.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7C619F97C980040B1FD /* new_op.cpp */; };
+		EF53F83419F97C980040B1FD /* new_opnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7C719F97C980040B1FD /* new_opnt.cpp */; };
+		EF53F83519F97C980040B1FD /* new_opv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7C819F97C980040B1FD /* new_opv.cpp */; };
+		EF53F83619F97C980040B1FD /* new_opvnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7C919F97C980040B1FD /* new_opvnt.cpp */; };
+		EF53F83719F97C980040B1FD /* numeric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7CB19F97C980040B1FD /* numeric.cpp */; };
+		EF53F83819F97C980040B1FD /* ostream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7CD19F97C980040B1FD /* ostream.cpp */; };
+		EF53F83919F97C980040B1FD /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7D019F97C980040B1FD /* queue.cpp */; };
+		EF53F83A19F97C980040B1FD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7D119F97C980040B1FD /* README.md */; };
+		EF53F83B19F97C980040B1FD /* set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7D419F97C980040B1FD /* set.cpp */; };
+		EF53F83C19F97C980040B1FD /* sstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7D619F97C980040B1FD /* sstream.cpp */; };
+		EF53F83D19F97C980040B1FD /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7D819F97C980040B1FD /* stack.cpp */; };
+		EF53F83E19F97C980040B1FD /* stdexcept.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7DB19F97C980040B1FD /* stdexcept.cpp */; };
+		EF53F83F19F97C980040B1FD /* streambuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7DD19F97C980040B1FD /* streambuf.cpp */; };
+		EF53F84019F97C980040B1FD /* string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7DF19F97C980040B1FD /* string.cpp */; };
+		EF53F84119F97C980040B1FD /* support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7E219F97C980040B1FD /* support.cpp */; };
+		EF53F84219F97C980040B1FD /* typeinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7E619F97C980040B1FD /* typeinfo.cpp */; };
+		EF53F84319F97C980040B1FD /* utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7E919F97C980040B1FD /* utility.cpp */; };
+		EF53F84419F97C980040B1FD /* valarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7EC19F97C980040B1FD /* valarray.cpp */; };
+		EF53F84519F97C980040B1FD /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7EE19F97C980040B1FD /* vector.cpp */; };
+		EF53F84619F97C980040B1FD /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7F419F97C980040B1FD /* LICENSE.md */; };
+		EF53F84719F97C980040B1FD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7F519F97C980040B1FD /* README.md */; };
+		EF53F84819F97C980040B1FD /* TSIC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F7F619F97C980040B1FD /* TSIC.cpp */; };
+		EF53F84919F97C980040B1FD /* XBee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF53F81019F97C980040B1FD /* XBee.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF53F6DF19F97B480040B1FD /* Index */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Index; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF53F6E219F97B480040B1FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF53F6E419F97B480040B1FD /* LocalLibrary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LocalLibrary.cpp; sourceTree = "<group>"; };
+		EF53F6E619F97B480040B1FD /* LocalLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalLibrary.h; sourceTree = "<group>"; };
+		EF53F6E719F97B480040B1FD /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		EF53F6EA19F97B480040B1FD /* Sketchbook.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Sketchbook.txt; path = Sketchbook/Sketchbook.txt; sourceTree = "<group>"; };
+		EF53F6EC19F97B480040B1FD /* 4D Systems PICadillo 35T.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "4D Systems PICadillo 35T.xcconfig"; path = "Configurations/4D Systems PICadillo 35T.xcconfig"; sourceTree = "<group>"; };
+		EF53F6ED19F97B480040B1FD /* Arduino Due.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Due.xcconfig"; path = "Configurations/Arduino Due.xcconfig"; sourceTree = "<group>"; };
+		EF53F6EE19F97B480040B1FD /* Arduino Duemilanove.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Duemilanove.xcconfig"; path = "Configurations/Arduino Duemilanove.xcconfig"; sourceTree = "<group>"; };
+		EF53F6EF19F97B480040B1FD /* Arduino Leonardo.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Leonardo.xcconfig"; path = "Configurations/Arduino Leonardo.xcconfig"; sourceTree = "<group>"; };
+		EF53F6F019F97B480040B1FD /* Arduino Mega 2560.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Mega 2560.xcconfig"; path = "Configurations/Arduino Mega 2560.xcconfig"; sourceTree = "<group>"; };
+		EF53F6F119F97B480040B1FD /* Arduino Micro.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Micro.xcconfig"; path = "Configurations/Arduino Micro.xcconfig"; sourceTree = "<group>"; };
+		EF53F6F219F97B480040B1FD /* Arduino Pro with ATmega328-3.3V.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Pro with ATmega328-3.3V.xcconfig"; path = "Configurations/Arduino Pro with ATmega328-3.3V.xcconfig"; sourceTree = "<group>"; };
+		EF53F6F319F97B480040B1FD /* Arduino Pro with ATmega328-5V.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Pro with ATmega328-5V.xcconfig"; path = "Configurations/Arduino Pro with ATmega328-5V.xcconfig"; sourceTree = "<group>"; };
+		EF53F6F419F97B480040B1FD /* Arduino Mini with ATmega168.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Mini with ATmega168.xcconfig"; path = "Configurations/Arduino Mini with ATmega168.xcconfig"; sourceTree = "<group>"; };
+		EF53F6F519F97B480040B1FD /* Arduino Mini with ATmega328.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Mini with ATmega328.xcconfig"; path = "Configurations/Arduino Mini with ATmega328.xcconfig"; sourceTree = "<group>"; };
+		EF53F6F619F97B480040B1FD /* Arduino Nano with ATmega168.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Nano with ATmega168.xcconfig"; path = "Configurations/Arduino Nano with ATmega168.xcconfig"; sourceTree = "<group>"; };
+		EF53F6F719F97B480040B1FD /* Arduino Nano with ATmega328.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Nano with ATmega328.xcconfig"; path = "Configurations/Arduino Nano with ATmega328.xcconfig"; sourceTree = "<group>"; };
+		EF53F6F819F97B480040B1FD /* Arduino Robot Control.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Robot Control.xcconfig"; path = "Configurations/Arduino Robot Control.xcconfig"; sourceTree = "<group>"; };
+		EF53F6F919F97B480040B1FD /* Arduino Robot Motor.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Robot Motor.xcconfig"; path = "Configurations/Arduino Robot Motor.xcconfig"; sourceTree = "<group>"; };
+		EF53F6FA19F97B480040B1FD /* Arduino Uno.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Uno.xcconfig"; path = "Configurations/Arduino Uno.xcconfig"; sourceTree = "<group>"; };
+		EF53F6FB19F97B480040B1FD /* Arduino Yun.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Arduino Yun.xcconfig"; path = "Configurations/Arduino Yun.xcconfig"; sourceTree = "<group>"; };
+		EF53F6FC19F97B480040B1FD /* chipKIT Uno32.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "chipKIT Uno32.xcconfig"; path = "Configurations/chipKIT Uno32.xcconfig"; sourceTree = "<group>"; };
+		EF53F6FD19F97B480040B1FD /* chipKIT Max32.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "chipKIT Max32.xcconfig"; path = "Configurations/chipKIT Max32.xcconfig"; sourceTree = "<group>"; };
+		EF53F6FE19F97B480040B1FD /* chipKIT uC32.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "chipKIT uC32.xcconfig"; path = "Configurations/chipKIT uC32.xcconfig"; sourceTree = "<group>"; };
+		EF53F6FF19F97B480040B1FD /* DFRobot BLuno.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "DFRobot BLuno.xcconfig"; path = "Configurations/DFRobot BLuno.xcconfig"; sourceTree = "<group>"; };
+		EF53F70019F97B480040B1FD /* DFRobot Wido.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "DFRobot Wido.xcconfig"; path = "Configurations/DFRobot Wido.xcconfig"; sourceTree = "<group>"; };
+		EF53F70119F97B480040B1FD /* Digispark Tiny Core.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Digispark Tiny Core.xcconfig"; path = "Configurations/Digispark Tiny Core.xcconfig"; sourceTree = "<group>"; };
+		EF53F70219F97B480040B1FD /* Experimeter Board with MSP430FR5739.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Experimeter Board with MSP430FR5739.xcconfig"; path = "Configurations/Experimeter Board with MSP430FR5739.xcconfig"; sourceTree = "<group>"; };
+		EF53F70319F97B480040B1FD /* Intel Galileo.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Intel Galileo.xcconfig"; path = "Configurations/Intel Galileo.xcconfig"; sourceTree = "<group>"; };
+		EF53F70419F97B480040B1FD /* Intel Galileo Gen2.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Intel Galileo Gen2.xcconfig"; path = "Configurations/Intel Galileo Gen2.xcconfig"; sourceTree = "<group>"; };
+		EF53F70519F97B480040B1FD /* LaunchPad WiFi with CC3200.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "LaunchPad WiFi with CC3200.xcconfig"; path = "Configurations/LaunchPad WiFi with CC3200.xcconfig"; sourceTree = "<group>"; };
+		EF53F70619F97B480040B1FD /* LaunchPad Stellaris with LM4F120.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "LaunchPad Stellaris with LM4F120.xcconfig"; path = "Configurations/LaunchPad Stellaris with LM4F120.xcconfig"; sourceTree = "<group>"; };
+		EF53F70719F97B480040B1FD /* LaunchPad Tiva C with TM4C123.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "LaunchPad Tiva C with TM4C123.xcconfig"; path = "Configurations/LaunchPad Tiva C with TM4C123.xcconfig"; sourceTree = "<group>"; };
+		EF53F70819F97B480040B1FD /* LaunchPad Tiva C with TM4C129.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "LaunchPad Tiva C with TM4C129.xcconfig"; path = "Configurations/LaunchPad Tiva C with TM4C129.xcconfig"; sourceTree = "<group>"; };
+		EF53F70919F97B480040B1FD /* LaunchPad with MSP430G2553.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "LaunchPad with MSP430G2553.xcconfig"; path = "Configurations/LaunchPad with MSP430G2553.xcconfig"; sourceTree = "<group>"; };
+		EF53F70A19F97B480040B1FD /* LaunchPad with MSP430G2231.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "LaunchPad with MSP430G2231.xcconfig"; path = "Configurations/LaunchPad with MSP430G2231.xcconfig"; sourceTree = "<group>"; };
+		EF53F70B19F97B480040B1FD /* LaunchPad with MSP430G2452.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "LaunchPad with MSP430G2452.xcconfig"; path = "Configurations/LaunchPad with MSP430G2452.xcconfig"; sourceTree = "<group>"; };
+		EF53F70C19F97B480040B1FD /* LaunchPad with MSP430F5529.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "LaunchPad with MSP430F5529.xcconfig"; path = "Configurations/LaunchPad with MSP430F5529.xcconfig"; sourceTree = "<group>"; };
+		EF53F70D19F97B480040B1FD /* LaunchPad with MSP430FR5969.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "LaunchPad with MSP430FR5969.xcconfig"; path = "Configurations/LaunchPad with MSP430FR5969.xcconfig"; sourceTree = "<group>"; };
+		EF53F70E19F97B480040B1FD /* Maple Flash revision 3+.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Maple Flash revision 3+.xcconfig"; path = "Configurations/Maple Flash revision 3+.xcconfig"; sourceTree = "<group>"; };
+		EF53F70F19F97B480040B1FD /* Microduino Core with ATmega328-5V.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Microduino Core with ATmega328-5V.xcconfig"; path = "Configurations/Microduino Core with ATmega328-5V.xcconfig"; sourceTree = "<group>"; };
+		EF53F71019F97B480040B1FD /* Microduino Core32u4 with ATmega328U4-5V.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Microduino Core32u4 with ATmega328U4-5V.xcconfig"; path = "Configurations/Microduino Core32u4 with ATmega328U4-5V.xcconfig"; sourceTree = "<group>"; };
+		EF53F71119F97B480040B1FD /* Microduino Core+ with ATmega644-5V.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Microduino Core+ with ATmega644-5V.xcconfig"; path = "Configurations/Microduino Core+ with ATmega644-5V.xcconfig"; sourceTree = "<group>"; };
+		EF53F71219F97B480040B1FD /* Sparkfun Uno.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Sparkfun Uno.xcconfig"; path = "Configurations/Sparkfun Uno.xcconfig"; sourceTree = "<group>"; };
+		EF53F71319F97B480040B1FD /* Teensy 2.0.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Teensy 2.0.xcconfig"; path = "Configurations/Teensy 2.0.xcconfig"; sourceTree = "<group>"; };
+		EF53F71419F97B480040B1FD /* Teensy 3.0.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Teensy 3.0.xcconfig"; path = "Configurations/Teensy 3.0.xcconfig"; sourceTree = "<group>"; };
+		EF53F71519F97B480040B1FD /* Teensy 3.1.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Teensy 3.1.xcconfig"; path = "Configurations/Teensy 3.1.xcconfig"; sourceTree = "<group>"; };
+		EF53F71619F97B480040B1FD /* Wiring S.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Wiring S.xcconfig"; path = "Configurations/Wiring S.xcconfig"; sourceTree = "<group>"; };
+		EF53F71819F97B480040B1FD /* Arduino.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Arduino.mk; path = Makefiles/Arduino.mk; sourceTree = "<group>"; };
+		EF53F71919F97B480040B1FD /* Arduino1.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Arduino1.mk; path = Makefiles/Arduino1.mk; sourceTree = "<group>"; };
+		EF53F71A19F97B480040B1FD /* Arduino15avr.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Arduino15avr.mk; path = Makefiles/Arduino15avr.mk; sourceTree = "<group>"; };
+		EF53F71B19F97B480040B1FD /* Arduino15sam.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Arduino15sam.mk; path = Makefiles/Arduino15sam.mk; sourceTree = "<group>"; };
+		EF53F71C19F97B480040B1FD /* Arduino23.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Arduino23.mk; path = Makefiles/Arduino23.mk; sourceTree = "<group>"; };
+		EF53F71D19F97B480040B1FD /* Digispark.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Digispark.mk; path = Makefiles/Digispark.mk; sourceTree = "<group>"; };
+		EF53F71E19F97B480040B1FD /* EnergiaMSP430.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = EnergiaMSP430.mk; path = Makefiles/EnergiaMSP430.mk; sourceTree = "<group>"; };
+		EF53F71F19F97B480040B1FD /* EnergiaLM4F.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = EnergiaLM4F.mk; path = Makefiles/EnergiaLM4F.mk; sourceTree = "<group>"; };
+		EF53F72019F97B480040B1FD /* EnergiaCC3200.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = EnergiaCC3200.mk; path = Makefiles/EnergiaCC3200.mk; sourceTree = "<group>"; };
+		EF53F72119F97B480040B1FD /* Galileo.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Galileo.mk; path = Makefiles/Galileo.mk; sourceTree = "<group>"; };
+		EF53F72219F97B480040B1FD /* MapleIDE.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = MapleIDE.mk; path = Makefiles/MapleIDE.mk; sourceTree = "<group>"; };
+		EF53F72319F97B480040B1FD /* Microduino.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Microduino.mk; path = Makefiles/Microduino.mk; sourceTree = "<group>"; };
+		EF53F72419F97B480040B1FD /* Mpide.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Mpide.mk; path = Makefiles/Mpide.mk; sourceTree = "<group>"; };
+		EF53F72519F97B480040B1FD /* Wiring.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Wiring.mk; path = Makefiles/Wiring.mk; sourceTree = "<group>"; };
+		EF53F72619F97B480040B1FD /* Step1.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Step1.mk; path = Makefiles/Step1.mk; sourceTree = "<group>"; };
+		EF53F72719F97B480040B1FD /* Step2.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Step2.mk; path = Makefiles/Step2.mk; sourceTree = "<group>"; };
+		EF53F72819F97B480040B1FD /* Teensy.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Teensy.mk; path = Makefiles/Teensy.mk; sourceTree = "<group>"; };
+		EF53F72919F97B480040B1FD /* Teensy2.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Teensy2.mk; path = Makefiles/Teensy2.mk; sourceTree = "<group>"; };
+		EF53F72A19F97B480040B1FD /* Teensy3.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Teensy3.mk; path = Makefiles/Teensy3.mk; sourceTree = "<group>"; };
+		EF53F72B19F97B480040B1FD /* Avrdude.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Avrdude.mk; path = Makefiles/Avrdude.mk; sourceTree = "<group>"; };
+		EF53F72C19F97B480040B1FD /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		EF53F72E19F97B480040B1FD /* About.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = About.txt; path = About/About.txt; sourceTree = "<group>"; };
+		EF53F73019F97B480040B1FD /* reset.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = reset.py; path = Utilities/reset.py; sourceTree = "<group>"; };
+		EF53F73119F97B480040B1FD /* serial1200.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = serial1200.py; path = Utilities/serial1200.py; sourceTree = "<group>"; };
+		EF53F73219F97B480040B1FD /* embedXcode_prepare */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = embedXcode_prepare; path = Utilities/embedXcode_prepare; sourceTree = "<group>"; };
+		EF53F73319F97B480040B1FD /* embedXcode_check */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = embedXcode_check; path = Utilities/embedXcode_check; sourceTree = "<group>"; };
+		EF53F73419F97B480040B1FD /* embedXcode_chrono */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = embedXcode_chrono; path = Utilities/embedXcode_chrono; sourceTree = "<group>"; };
+		EF53F73519F97B480040B1FD /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = TemplateIcon.icns; path = Utilities/TemplateIcon.icns; sourceTree = "<group>"; };
+		EF53F73619F97B480040B1FD /* clupload_osx.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = clupload_osx.sh; path = Utilities/clupload_osx.sh; sourceTree = "<group>"; };
+		EF53F73719F97B480040B1FD /* BoilerController.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = BoilerController.ino; sourceTree = "<group>"; };
+		EF53F74E19F97C970040B1FD /* Autoscroll.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Autoscroll.ino; sourceTree = "<group>"; };
+		EF53F75019F97C970040B1FD /* Blink.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Blink.ino; sourceTree = "<group>"; };
+		EF53F75219F97C970040B1FD /* Cursor.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cursor.ino; sourceTree = "<group>"; };
+		EF53F75419F97C970040B1FD /* CustomCharacter.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CustomCharacter.ino; sourceTree = "<group>"; };
+		EF53F75619F97C970040B1FD /* Display.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Display.ino; sourceTree = "<group>"; };
+		EF53F75819F97C970040B1FD /* fade.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fade.ino; sourceTree = "<group>"; };
+		EF53F75A19F97C970040B1FD /* HelloWorld.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HelloWorld.ino; sourceTree = "<group>"; };
+		EF53F75C19F97C970040B1FD /* Scroll.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scroll.ino; sourceTree = "<group>"; };
+		EF53F75E19F97C970040B1FD /* SerialDisplay.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SerialDisplay.ino; sourceTree = "<group>"; };
+		EF53F76019F97C970040B1FD /* setColor.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = setColor.ino; sourceTree = "<group>"; };
+		EF53F76219F97C970040B1FD /* setCursor.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = setCursor.ino; sourceTree = "<group>"; };
+		EF53F76419F97C970040B1FD /* TextDirection.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TextDirection.ino; sourceTree = "<group>"; };
+		EF53F76519F97C970040B1FD /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		EF53F76619F97C970040B1FD /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		EF53F76719F97C970040B1FD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EF53F76819F97C970040B1FD /* rgb_lcd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rgb_lcd.cpp; sourceTree = "<group>"; };
+		EF53F76919F97C970040B1FD /* rgb_lcd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rgb_lcd.h; sourceTree = "<group>"; };
+		EF53F76A19F97C970040B1FD /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		EF53F76E19F97C970040B1FD /* SimpleList_delete_while_iterating_example.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleList_delete_while_iterating_example.ino; sourceTree = "<group>"; };
+		EF53F77019F97C970040B1FD /* SimpleList_store_ints_example.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleList_store_ints_example.ino; sourceTree = "<group>"; };
+		EF53F77119F97C970040B1FD /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		EF53F77219F97C970040B1FD /* SimpleList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleList.cpp; sourceTree = "<group>"; };
+		EF53F77319F97C970040B1FD /* SimpleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleList.h; sourceTree = "<group>"; };
+		EF53F77519F97C970040B1FD /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EF53F77619F97C970040B1FD /* algorithm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = algorithm; sourceTree = "<group>"; };
+		EF53F77719F97C970040B1FD /* algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = algorithm.cpp; sourceTree = "<group>"; };
+		EF53F77819F97C970040B1FD /* associative_base */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = associative_base; sourceTree = "<group>"; };
+		EF53F77919F97C970040B1FD /* associative_base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = associative_base.cpp; sourceTree = "<group>"; };
+		EF53F77A19F97C970040B1FD /* basic_definitions */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = basic_definitions; sourceTree = "<group>"; };
+		EF53F77B19F97C970040B1FD /* bitset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bitset; sourceTree = "<group>"; };
+		EF53F77C19F97C970040B1FD /* bitset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bitset.cpp; sourceTree = "<group>"; };
+		EF53F77D19F97C970040B1FD /* cassert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cassert; sourceTree = "<group>"; };
+		EF53F77E19F97C970040B1FD /* cctype */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cctype; sourceTree = "<group>"; };
+		EF53F77F19F97C970040B1FD /* cerrno */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cerrno; sourceTree = "<group>"; };
+		EF53F78019F97C970040B1FD /* cfloat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cfloat; sourceTree = "<group>"; };
+		EF53F78119F97C970040B1FD /* char_traits */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = char_traits; sourceTree = "<group>"; };
+		EF53F78219F97C970040B1FD /* char_traits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = char_traits.cpp; sourceTree = "<group>"; };
+		EF53F78319F97C970040B1FD /* climits */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = climits; sourceTree = "<group>"; };
+		EF53F78419F97C970040B1FD /* clocale */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = clocale; sourceTree = "<group>"; };
+		EF53F78519F97C970040B1FD /* cmath */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmath; sourceTree = "<group>"; };
+		EF53F78619F97C970040B1FD /* complex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = complex; sourceTree = "<group>"; };
+		EF53F78719F97C970040B1FD /* complex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = complex.cpp; sourceTree = "<group>"; };
+		EF53F78819F97C970040B1FD /* csetjmp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = csetjmp; sourceTree = "<group>"; };
+		EF53F78919F97C970040B1FD /* csignal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = csignal; sourceTree = "<group>"; };
+		EF53F78A19F97C970040B1FD /* cstdarg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cstdarg; sourceTree = "<group>"; };
+		EF53F78B19F97C970040B1FD /* cstddef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cstddef; sourceTree = "<group>"; };
+		EF53F78C19F97C970040B1FD /* cstdio */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cstdio; sourceTree = "<group>"; };
+		EF53F78D19F97C970040B1FD /* cstdlib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cstdlib; sourceTree = "<group>"; };
+		EF53F78E19F97C970040B1FD /* cstring */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cstring; sourceTree = "<group>"; };
+		EF53F78F19F97C970040B1FD /* ctime */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ctime; sourceTree = "<group>"; };
+		EF53F79019F97C970040B1FD /* cwchar */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cwchar; sourceTree = "<group>"; };
+		EF53F79119F97C970040B1FD /* cwctype */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cwctype; sourceTree = "<group>"; };
+		EF53F79219F97C970040B1FD /* del_op.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = del_op.cpp; sourceTree = "<group>"; };
+		EF53F79319F97C970040B1FD /* del_opnt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = del_opnt.cpp; sourceTree = "<group>"; };
+		EF53F79419F97C970040B1FD /* del_opv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = del_opv.cpp; sourceTree = "<group>"; };
+		EF53F79519F97C970040B1FD /* del_opvnt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = del_opvnt.cpp; sourceTree = "<group>"; };
+		EF53F79619F97C970040B1FD /* deque */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = deque; sourceTree = "<group>"; };
+		EF53F79719F97C970040B1FD /* deque.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deque.cpp; sourceTree = "<group>"; };
+		EF53F79819F97C970040B1FD /* eh_alloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eh_alloc.cpp; sourceTree = "<group>"; };
+		EF53F79919F97C970040B1FD /* eh_globals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eh_globals.cpp; sourceTree = "<group>"; };
+		EF53F79C19F97C970040B1FD /* Jamfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.jam; path = Jamfile; sourceTree = "<group>"; };
+		EF53F79D19F97C970040B1FD /* more.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = more.cpp; sourceTree = "<group>"; };
+		EF53F79E19F97C970040B1FD /* runtests.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = runtests.sh; sourceTree = "<group>"; };
+		EF53F79F19F97C970040B1FD /* serstream.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = serstream.ino; sourceTree = "<group>"; };
+		EF53F7A019F97C970040B1FD /* test.ex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.ex; sourceTree = "<group>"; };
+		EF53F7A219F97C970040B1FD /* Jamfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.jam; path = Jamfile; sourceTree = "<group>"; };
+		EF53F7A319F97C970040B1FD /* string_vector.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = string_vector.ino; sourceTree = "<group>"; };
+		EF53F7A419F97C970040B1FD /* exception */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exception; sourceTree = "<group>"; };
+		EF53F7A519F97C970040B1FD /* exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exception.cpp; sourceTree = "<group>"; };
+		EF53F7A619F97C970040B1FD /* fstream */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fstream; sourceTree = "<group>"; };
+		EF53F7A719F97C970040B1FD /* fstream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fstream.cpp; sourceTree = "<group>"; };
+		EF53F7A819F97C970040B1FD /* func_exception */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = func_exception; sourceTree = "<group>"; };
+		EF53F7A919F97C970040B1FD /* func_exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = func_exception.cpp; sourceTree = "<group>"; };
+		EF53F7AA19F97C970040B1FD /* functional */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = functional; sourceTree = "<group>"; };
+		EF53F7AB19F97C970040B1FD /* initializer_list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = initializer_list; sourceTree = "<group>"; };
+		EF53F7AC19F97C970040B1FD /* iomanip */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iomanip; sourceTree = "<group>"; };
+		EF53F7AD19F97C970040B1FD /* iomanip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iomanip.cpp; sourceTree = "<group>"; };
+		EF53F7AE19F97C970040B1FD /* ios */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios; sourceTree = "<group>"; };
+		EF53F7AF19F97C970040B1FD /* ios.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ios.cpp; sourceTree = "<group>"; };
+		EF53F7B019F97C970040B1FD /* iosfwd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iosfwd; sourceTree = "<group>"; };
+		EF53F7B119F97C970040B1FD /* iostream */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iostream; sourceTree = "<group>"; };
+		EF53F7B219F97C970040B1FD /* iostream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iostream.cpp; sourceTree = "<group>"; };
+		EF53F7B319F97C980040B1FD /* istream */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = istream; sourceTree = "<group>"; };
+		EF53F7B419F97C980040B1FD /* istream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = istream.cpp; sourceTree = "<group>"; };
+		EF53F7B519F97C980040B1FD /* istream_helpers */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = istream_helpers; sourceTree = "<group>"; };
+		EF53F7B619F97C980040B1FD /* iterator */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iterator; sourceTree = "<group>"; };
+		EF53F7B719F97C980040B1FD /* iterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iterator.cpp; sourceTree = "<group>"; };
+		EF53F7B819F97C980040B1FD /* iterator_base */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iterator_base; sourceTree = "<group>"; };
+		EF53F7B919F97C980040B1FD /* Jamfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.jam; path = Jamfile; sourceTree = "<group>"; };
+		EF53F7BA19F97C980040B1FD /* limits */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = limits; sourceTree = "<group>"; };
+		EF53F7BB19F97C980040B1FD /* limits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = limits.cpp; sourceTree = "<group>"; };
+		EF53F7BC19F97C980040B1FD /* list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = list; sourceTree = "<group>"; };
+		EF53F7BD19F97C980040B1FD /* list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
+		EF53F7BE19F97C980040B1FD /* locale */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = locale; sourceTree = "<group>"; };
+		EF53F7BF19F97C980040B1FD /* locale.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = locale.cpp; sourceTree = "<group>"; };
+		EF53F7C019F97C980040B1FD /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		EF53F7C119F97C980040B1FD /* map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = map; sourceTree = "<group>"; };
+		EF53F7C219F97C980040B1FD /* map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = map.cpp; sourceTree = "<group>"; };
+		EF53F7C319F97C980040B1FD /* memory */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = memory; sourceTree = "<group>"; };
+		EF53F7C419F97C980040B1FD /* new */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = new; sourceTree = "<group>"; };
+		EF53F7C519F97C980040B1FD /* new_handler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = new_handler.cpp; sourceTree = "<group>"; };
+		EF53F7C619F97C980040B1FD /* new_op.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = new_op.cpp; sourceTree = "<group>"; };
+		EF53F7C719F97C980040B1FD /* new_opnt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = new_opnt.cpp; sourceTree = "<group>"; };
+		EF53F7C819F97C980040B1FD /* new_opv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = new_opv.cpp; sourceTree = "<group>"; };
+		EF53F7C919F97C980040B1FD /* new_opvnt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = new_opvnt.cpp; sourceTree = "<group>"; };
+		EF53F7CA19F97C980040B1FD /* numeric */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = numeric; sourceTree = "<group>"; };
+		EF53F7CB19F97C980040B1FD /* numeric.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = numeric.cpp; sourceTree = "<group>"; };
+		EF53F7CC19F97C980040B1FD /* ostream */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ostream; sourceTree = "<group>"; };
+		EF53F7CD19F97C980040B1FD /* ostream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ostream.cpp; sourceTree = "<group>"; };
+		EF53F7CE19F97C980040B1FD /* ostream_helpers */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ostream_helpers; sourceTree = "<group>"; };
+		EF53F7CF19F97C980040B1FD /* queue */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = queue; sourceTree = "<group>"; };
+		EF53F7D019F97C980040B1FD /* queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
+		EF53F7D119F97C980040B1FD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EF53F7D219F97C980040B1FD /* serstream */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = serstream; sourceTree = "<group>"; };
+		EF53F7D319F97C980040B1FD /* set */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = set; sourceTree = "<group>"; };
+		EF53F7D419F97C980040B1FD /* set.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = set.cpp; sourceTree = "<group>"; };
+		EF53F7D519F97C980040B1FD /* sstream */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sstream; sourceTree = "<group>"; };
+		EF53F7D619F97C980040B1FD /* sstream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sstream.cpp; sourceTree = "<group>"; };
+		EF53F7D719F97C980040B1FD /* stack */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stack; sourceTree = "<group>"; };
+		EF53F7D819F97C980040B1FD /* stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stack.cpp; sourceTree = "<group>"; };
+		EF53F7D919F97C980040B1FD /* StandardCplusplus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardCplusplus.h; sourceTree = "<group>"; };
+		EF53F7DA19F97C980040B1FD /* stdexcept */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stdexcept; sourceTree = "<group>"; };
+		EF53F7DB19F97C980040B1FD /* stdexcept.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdexcept.cpp; sourceTree = "<group>"; };
+		EF53F7DC19F97C980040B1FD /* streambuf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = streambuf; sourceTree = "<group>"; };
+		EF53F7DD19F97C980040B1FD /* streambuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = streambuf.cpp; sourceTree = "<group>"; };
+		EF53F7DE19F97C980040B1FD /* string */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = string; sourceTree = "<group>"; };
+		EF53F7DF19F97C980040B1FD /* string.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = string.cpp; sourceTree = "<group>"; };
+		EF53F7E019F97C980040B1FD /* string_iostream */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = string_iostream; sourceTree = "<group>"; };
+		EF53F7E119F97C980040B1FD /* support */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = support; sourceTree = "<group>"; };
+		EF53F7E219F97C980040B1FD /* support.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = support.cpp; sourceTree = "<group>"; };
+		EF53F7E319F97C980040B1FD /* system_configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = system_configuration.h; sourceTree = "<group>"; };
+		EF53F7E419F97C980040B1FD /* type_traits */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = type_traits; sourceTree = "<group>"; };
+		EF53F7E519F97C980040B1FD /* typeinfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = typeinfo; sourceTree = "<group>"; };
+		EF53F7E619F97C980040B1FD /* typeinfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = typeinfo.cpp; sourceTree = "<group>"; };
+		EF53F7E719F97C980040B1FD /* uartbuf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uartbuf; sourceTree = "<group>"; };
+		EF53F7E819F97C980040B1FD /* unwind-cxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "unwind-cxx.h"; sourceTree = "<group>"; };
+		EF53F7E919F97C980040B1FD /* utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utility.cpp; sourceTree = "<group>"; };
+		EF53F7EA19F97C980040B1FD /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
+		EF53F7EB19F97C980040B1FD /* valarray */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = valarray; sourceTree = "<group>"; };
+		EF53F7EC19F97C980040B1FD /* valarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = valarray.cpp; sourceTree = "<group>"; };
+		EF53F7ED19F97C980040B1FD /* vector */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vector; sourceTree = "<group>"; };
+		EF53F7EE19F97C980040B1FD /* vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
+		EF53F7F219F97C980040B1FD /* example_tsic.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example_tsic.ino; sourceTree = "<group>"; };
+		EF53F7F319F97C980040B1FD /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		EF53F7F419F97C980040B1FD /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		EF53F7F519F97C980040B1FD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EF53F7F619F97C980040B1FD /* TSIC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TSIC.cpp; sourceTree = "<group>"; };
+		EF53F7F719F97C980040B1FD /* TSIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSIC.h; sourceTree = "<group>"; };
+		EF53F7F919F97C980040B1FD /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		EF53F7FC19F97C980040B1FD /* AtCommand.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AtCommand.pde; sourceTree = "<group>"; };
+		EF53F7FE19F97C980040B1FD /* RemoteAtCommand.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RemoteAtCommand.pde; sourceTree = "<group>"; };
+		EF53F80019F97C980040B1FD /* Series1_IoSamples.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Series1_IoSamples.pde; sourceTree = "<group>"; };
+		EF53F80219F97C980040B1FD /* Series1_Rx.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Series1_Rx.pde; sourceTree = "<group>"; };
+		EF53F80419F97C980040B1FD /* Series1_Tx.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Series1_Tx.pde; sourceTree = "<group>"; };
+		EF53F80619F97C980040B1FD /* Series2_IoSamples.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Series2_IoSamples.pde; sourceTree = "<group>"; };
+		EF53F80819F97C980040B1FD /* Series2_Rx.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Series2_Rx.pde; sourceTree = "<group>"; };
+		EF53F80A19F97C980040B1FD /* Series2_Rx_Nss.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Series2_Rx_Nss.pde; sourceTree = "<group>"; };
+		EF53F80C19F97C980040B1FD /* Series2_Sleep.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Series2_Sleep.pde; sourceTree = "<group>"; };
+		EF53F80E19F97C980040B1FD /* Series2_Tx.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Series2_Tx.pde; sourceTree = "<group>"; };
+		EF53F80F19F97C980040B1FD /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		EF53F81019F97C980040B1FD /* XBee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XBee.cpp; sourceTree = "<group>"; };
+		EF53F81119F97C980040B1FD /* XBee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBee.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		EF53F6D419F97B480040B1FD = {
+			isa = PBXGroup;
+			children = (
+				EF53F6E119F97B480040B1FD /* BoilerController */,
+				EF53F6E019F97B480040B1FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF53F6E019F97B480040B1FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F6DF19F97B480040B1FD /* Index */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF53F6E119F97B480040B1FD /* BoilerController */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F6E219F97B480040B1FD /* main.cpp */,
+				EF53F6E419F97B480040B1FD /* LocalLibrary.cpp */,
+				EF53F6E619F97B480040B1FD /* LocalLibrary.h */,
+				EF53F6E719F97B480040B1FD /* Makefile */,
+				EF53F72C19F97B480040B1FD /* ReadMe.txt */,
+				EF53F73719F97B480040B1FD /* BoilerController.ino */,
+				EF53F6E919F97B480040B1FD /* Sketchbook */,
+				EF53F6EB19F97B480040B1FD /* Configurations */,
+				EF53F71719F97B480040B1FD /* Makefiles */,
+				EF53F72D19F97B480040B1FD /* About */,
+				EF53F72F19F97B480040B1FD /* Utilities */,
+			);
+			path = BoilerController;
+			sourceTree = "<group>";
+		};
+		EF53F6E919F97B480040B1FD /* Sketchbook */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F74A19F97C970040B1FD /* libraries */,
+				EF53F6EA19F97B480040B1FD /* Sketchbook.txt */,
+			);
+			name = Sketchbook;
+			sourceTree = "<group>";
+		};
+		EF53F6EB19F97B480040B1FD /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F6EC19F97B480040B1FD /* 4D Systems PICadillo 35T.xcconfig */,
+				EF53F6ED19F97B480040B1FD /* Arduino Due.xcconfig */,
+				EF53F6EE19F97B480040B1FD /* Arduino Duemilanove.xcconfig */,
+				EF53F6EF19F97B480040B1FD /* Arduino Leonardo.xcconfig */,
+				EF53F6F019F97B480040B1FD /* Arduino Mega 2560.xcconfig */,
+				EF53F6F119F97B480040B1FD /* Arduino Micro.xcconfig */,
+				EF53F6F219F97B480040B1FD /* Arduino Pro with ATmega328-3.3V.xcconfig */,
+				EF53F6F319F97B480040B1FD /* Arduino Pro with ATmega328-5V.xcconfig */,
+				EF53F6F419F97B480040B1FD /* Arduino Mini with ATmega168.xcconfig */,
+				EF53F6F519F97B480040B1FD /* Arduino Mini with ATmega328.xcconfig */,
+				EF53F6F619F97B480040B1FD /* Arduino Nano with ATmega168.xcconfig */,
+				EF53F6F719F97B480040B1FD /* Arduino Nano with ATmega328.xcconfig */,
+				EF53F6F819F97B480040B1FD /* Arduino Robot Control.xcconfig */,
+				EF53F6F919F97B480040B1FD /* Arduino Robot Motor.xcconfig */,
+				EF53F6FA19F97B480040B1FD /* Arduino Uno.xcconfig */,
+				EF53F6FB19F97B480040B1FD /* Arduino Yun.xcconfig */,
+				EF53F6FC19F97B480040B1FD /* chipKIT Uno32.xcconfig */,
+				EF53F6FD19F97B480040B1FD /* chipKIT Max32.xcconfig */,
+				EF53F6FE19F97B480040B1FD /* chipKIT uC32.xcconfig */,
+				EF53F6FF19F97B480040B1FD /* DFRobot BLuno.xcconfig */,
+				EF53F70019F97B480040B1FD /* DFRobot Wido.xcconfig */,
+				EF53F70119F97B480040B1FD /* Digispark Tiny Core.xcconfig */,
+				EF53F70219F97B480040B1FD /* Experimeter Board with MSP430FR5739.xcconfig */,
+				EF53F70319F97B480040B1FD /* Intel Galileo.xcconfig */,
+				EF53F70419F97B480040B1FD /* Intel Galileo Gen2.xcconfig */,
+				EF53F70519F97B480040B1FD /* LaunchPad WiFi with CC3200.xcconfig */,
+				EF53F70619F97B480040B1FD /* LaunchPad Stellaris with LM4F120.xcconfig */,
+				EF53F70719F97B480040B1FD /* LaunchPad Tiva C with TM4C123.xcconfig */,
+				EF53F70819F97B480040B1FD /* LaunchPad Tiva C with TM4C129.xcconfig */,
+				EF53F70919F97B480040B1FD /* LaunchPad with MSP430G2553.xcconfig */,
+				EF53F70A19F97B480040B1FD /* LaunchPad with MSP430G2231.xcconfig */,
+				EF53F70B19F97B480040B1FD /* LaunchPad with MSP430G2452.xcconfig */,
+				EF53F70C19F97B480040B1FD /* LaunchPad with MSP430F5529.xcconfig */,
+				EF53F70D19F97B480040B1FD /* LaunchPad with MSP430FR5969.xcconfig */,
+				EF53F70E19F97B480040B1FD /* Maple Flash revision 3+.xcconfig */,
+				EF53F70F19F97B480040B1FD /* Microduino Core with ATmega328-5V.xcconfig */,
+				EF53F71019F97B480040B1FD /* Microduino Core32u4 with ATmega328U4-5V.xcconfig */,
+				EF53F71119F97B480040B1FD /* Microduino Core+ with ATmega644-5V.xcconfig */,
+				EF53F71219F97B480040B1FD /* Sparkfun Uno.xcconfig */,
+				EF53F71319F97B480040B1FD /* Teensy 2.0.xcconfig */,
+				EF53F71419F97B480040B1FD /* Teensy 3.0.xcconfig */,
+				EF53F71519F97B480040B1FD /* Teensy 3.1.xcconfig */,
+				EF53F71619F97B480040B1FD /* Wiring S.xcconfig */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+		EF53F71719F97B480040B1FD /* Makefiles */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F71819F97B480040B1FD /* Arduino.mk */,
+				EF53F71919F97B480040B1FD /* Arduino1.mk */,
+				EF53F71A19F97B480040B1FD /* Arduino15avr.mk */,
+				EF53F71B19F97B480040B1FD /* Arduino15sam.mk */,
+				EF53F71C19F97B480040B1FD /* Arduino23.mk */,
+				EF53F71D19F97B480040B1FD /* Digispark.mk */,
+				EF53F71E19F97B480040B1FD /* EnergiaMSP430.mk */,
+				EF53F71F19F97B480040B1FD /* EnergiaLM4F.mk */,
+				EF53F72019F97B480040B1FD /* EnergiaCC3200.mk */,
+				EF53F72119F97B480040B1FD /* Galileo.mk */,
+				EF53F72219F97B480040B1FD /* MapleIDE.mk */,
+				EF53F72319F97B480040B1FD /* Microduino.mk */,
+				EF53F72419F97B480040B1FD /* Mpide.mk */,
+				EF53F72519F97B480040B1FD /* Wiring.mk */,
+				EF53F72619F97B480040B1FD /* Step1.mk */,
+				EF53F72719F97B480040B1FD /* Step2.mk */,
+				EF53F72819F97B480040B1FD /* Teensy.mk */,
+				EF53F72919F97B480040B1FD /* Teensy2.mk */,
+				EF53F72A19F97B480040B1FD /* Teensy3.mk */,
+				EF53F72B19F97B480040B1FD /* Avrdude.mk */,
+			);
+			name = Makefiles;
+			sourceTree = "<group>";
+		};
+		EF53F72D19F97B480040B1FD /* About */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F72E19F97B480040B1FD /* About.txt */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		EF53F72F19F97B480040B1FD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F73019F97B480040B1FD /* reset.py */,
+				EF53F73119F97B480040B1FD /* serial1200.py */,
+				EF53F73219F97B480040B1FD /* embedXcode_prepare */,
+				EF53F73319F97B480040B1FD /* embedXcode_check */,
+				EF53F73419F97B480040B1FD /* embedXcode_chrono */,
+				EF53F73519F97B480040B1FD /* TemplateIcon.icns */,
+				EF53F73619F97B480040B1FD /* clupload_osx.sh */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		EF53F74A19F97C970040B1FD /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F74B19F97C970040B1FD /* Grove_LCD */,
+				EF53F76A19F97C970040B1FD /* readme.txt */,
+				EF53F76B19F97C970040B1FD /* SimpleList */,
+				EF53F77419F97C970040B1FD /* StandardCplusplus */,
+				EF53F7EF19F97C980040B1FD /* TSIC */,
+				EF53F7F819F97C980040B1FD /* XBee */,
+			);
+			name = libraries;
+			path = ../../../../../Documents/Arduino/libraries;
+			sourceTree = "<group>";
+		};
+		EF53F74B19F97C970040B1FD /* Grove_LCD */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F74C19F97C970040B1FD /* examples */,
+				EF53F76519F97C970040B1FD /* keywords.txt */,
+				EF53F76619F97C970040B1FD /* License.txt */,
+				EF53F76719F97C970040B1FD /* README.md */,
+				EF53F76819F97C970040B1FD /* rgb_lcd.cpp */,
+				EF53F76919F97C970040B1FD /* rgb_lcd.h */,
+			);
+			path = Grove_LCD;
+			sourceTree = "<group>";
+		};
+		EF53F74C19F97C970040B1FD /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F74D19F97C970040B1FD /* Autoscroll */,
+				EF53F74F19F97C970040B1FD /* Blink */,
+				EF53F75119F97C970040B1FD /* Cursor */,
+				EF53F75319F97C970040B1FD /* CustomCharacter */,
+				EF53F75519F97C970040B1FD /* Display */,
+				EF53F75719F97C970040B1FD /* fade */,
+				EF53F75919F97C970040B1FD /* HelloWorld */,
+				EF53F75B19F97C970040B1FD /* Scroll */,
+				EF53F75D19F97C970040B1FD /* SerialDisplay */,
+				EF53F75F19F97C970040B1FD /* setColor */,
+				EF53F76119F97C970040B1FD /* setCursor */,
+				EF53F76319F97C970040B1FD /* TextDirection */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		EF53F74D19F97C970040B1FD /* Autoscroll */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F74E19F97C970040B1FD /* Autoscroll.ino */,
+			);
+			path = Autoscroll;
+			sourceTree = "<group>";
+		};
+		EF53F74F19F97C970040B1FD /* Blink */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F75019F97C970040B1FD /* Blink.ino */,
+			);
+			path = Blink;
+			sourceTree = "<group>";
+		};
+		EF53F75119F97C970040B1FD /* Cursor */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F75219F97C970040B1FD /* Cursor.ino */,
+			);
+			path = Cursor;
+			sourceTree = "<group>";
+		};
+		EF53F75319F97C970040B1FD /* CustomCharacter */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F75419F97C970040B1FD /* CustomCharacter.ino */,
+			);
+			path = CustomCharacter;
+			sourceTree = "<group>";
+		};
+		EF53F75519F97C970040B1FD /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F75619F97C970040B1FD /* Display.ino */,
+			);
+			path = Display;
+			sourceTree = "<group>";
+		};
+		EF53F75719F97C970040B1FD /* fade */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F75819F97C970040B1FD /* fade.ino */,
+			);
+			path = fade;
+			sourceTree = "<group>";
+		};
+		EF53F75919F97C970040B1FD /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F75A19F97C970040B1FD /* HelloWorld.ino */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		EF53F75B19F97C970040B1FD /* Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F75C19F97C970040B1FD /* Scroll.ino */,
+			);
+			path = Scroll;
+			sourceTree = "<group>";
+		};
+		EF53F75D19F97C970040B1FD /* SerialDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F75E19F97C970040B1FD /* SerialDisplay.ino */,
+			);
+			path = SerialDisplay;
+			sourceTree = "<group>";
+		};
+		EF53F75F19F97C970040B1FD /* setColor */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F76019F97C970040B1FD /* setColor.ino */,
+			);
+			path = setColor;
+			sourceTree = "<group>";
+		};
+		EF53F76119F97C970040B1FD /* setCursor */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F76219F97C970040B1FD /* setCursor.ino */,
+			);
+			path = setCursor;
+			sourceTree = "<group>";
+		};
+		EF53F76319F97C970040B1FD /* TextDirection */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F76419F97C970040B1FD /* TextDirection.ino */,
+			);
+			path = TextDirection;
+			sourceTree = "<group>";
+		};
+		EF53F76B19F97C970040B1FD /* SimpleList */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F76C19F97C970040B1FD /* examples */,
+				EF53F77119F97C970040B1FD /* keywords.txt */,
+				EF53F77219F97C970040B1FD /* SimpleList.cpp */,
+				EF53F77319F97C970040B1FD /* SimpleList.h */,
+			);
+			path = SimpleList;
+			sourceTree = "<group>";
+		};
+		EF53F76C19F97C970040B1FD /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F76D19F97C970040B1FD /* SimpleList_delete_while_iterating_example */,
+				EF53F76F19F97C970040B1FD /* SimpleList_store_ints_example */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		EF53F76D19F97C970040B1FD /* SimpleList_delete_while_iterating_example */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F76E19F97C970040B1FD /* SimpleList_delete_while_iterating_example.ino */,
+			);
+			path = SimpleList_delete_while_iterating_example;
+			sourceTree = "<group>";
+		};
+		EF53F76F19F97C970040B1FD /* SimpleList_store_ints_example */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F77019F97C970040B1FD /* SimpleList_store_ints_example.ino */,
+			);
+			path = SimpleList_store_ints_example;
+			sourceTree = "<group>";
+		};
+		EF53F77419F97C970040B1FD /* StandardCplusplus */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F77519F97C970040B1FD /* .gitignore */,
+				EF53F77619F97C970040B1FD /* algorithm */,
+				EF53F77719F97C970040B1FD /* algorithm.cpp */,
+				EF53F77819F97C970040B1FD /* associative_base */,
+				EF53F77919F97C970040B1FD /* associative_base.cpp */,
+				EF53F77A19F97C970040B1FD /* basic_definitions */,
+				EF53F77B19F97C970040B1FD /* bitset */,
+				EF53F77C19F97C970040B1FD /* bitset.cpp */,
+				EF53F77D19F97C970040B1FD /* cassert */,
+				EF53F77E19F97C970040B1FD /* cctype */,
+				EF53F77F19F97C970040B1FD /* cerrno */,
+				EF53F78019F97C970040B1FD /* cfloat */,
+				EF53F78119F97C970040B1FD /* char_traits */,
+				EF53F78219F97C970040B1FD /* char_traits.cpp */,
+				EF53F78319F97C970040B1FD /* climits */,
+				EF53F78419F97C970040B1FD /* clocale */,
+				EF53F78519F97C970040B1FD /* cmath */,
+				EF53F78619F97C970040B1FD /* complex */,
+				EF53F78719F97C970040B1FD /* complex.cpp */,
+				EF53F78819F97C970040B1FD /* csetjmp */,
+				EF53F78919F97C970040B1FD /* csignal */,
+				EF53F78A19F97C970040B1FD /* cstdarg */,
+				EF53F78B19F97C970040B1FD /* cstddef */,
+				EF53F78C19F97C970040B1FD /* cstdio */,
+				EF53F78D19F97C970040B1FD /* cstdlib */,
+				EF53F78E19F97C970040B1FD /* cstring */,
+				EF53F78F19F97C970040B1FD /* ctime */,
+				EF53F79019F97C970040B1FD /* cwchar */,
+				EF53F79119F97C970040B1FD /* cwctype */,
+				EF53F79219F97C970040B1FD /* del_op.cpp */,
+				EF53F79319F97C970040B1FD /* del_opnt.cpp */,
+				EF53F79419F97C970040B1FD /* del_opv.cpp */,
+				EF53F79519F97C970040B1FD /* del_opvnt.cpp */,
+				EF53F79619F97C970040B1FD /* deque */,
+				EF53F79719F97C970040B1FD /* deque.cpp */,
+				EF53F79819F97C970040B1FD /* eh_alloc.cpp */,
+				EF53F79919F97C970040B1FD /* eh_globals.cpp */,
+				EF53F79A19F97C970040B1FD /* examples */,
+				EF53F7A419F97C970040B1FD /* exception */,
+				EF53F7A519F97C970040B1FD /* exception.cpp */,
+				EF53F7A619F97C970040B1FD /* fstream */,
+				EF53F7A719F97C970040B1FD /* fstream.cpp */,
+				EF53F7A819F97C970040B1FD /* func_exception */,
+				EF53F7A919F97C970040B1FD /* func_exception.cpp */,
+				EF53F7AA19F97C970040B1FD /* functional */,
+				EF53F7AB19F97C970040B1FD /* initializer_list */,
+				EF53F7AC19F97C970040B1FD /* iomanip */,
+				EF53F7AD19F97C970040B1FD /* iomanip.cpp */,
+				EF53F7AE19F97C970040B1FD /* ios */,
+				EF53F7AF19F97C970040B1FD /* ios.cpp */,
+				EF53F7B019F97C970040B1FD /* iosfwd */,
+				EF53F7B119F97C970040B1FD /* iostream */,
+				EF53F7B219F97C970040B1FD /* iostream.cpp */,
+				EF53F7B319F97C980040B1FD /* istream */,
+				EF53F7B419F97C980040B1FD /* istream.cpp */,
+				EF53F7B519F97C980040B1FD /* istream_helpers */,
+				EF53F7B619F97C980040B1FD /* iterator */,
+				EF53F7B719F97C980040B1FD /* iterator.cpp */,
+				EF53F7B819F97C980040B1FD /* iterator_base */,
+				EF53F7B919F97C980040B1FD /* Jamfile */,
+				EF53F7BA19F97C980040B1FD /* limits */,
+				EF53F7BB19F97C980040B1FD /* limits.cpp */,
+				EF53F7BC19F97C980040B1FD /* list */,
+				EF53F7BD19F97C980040B1FD /* list.cpp */,
+				EF53F7BE19F97C980040B1FD /* locale */,
+				EF53F7BF19F97C980040B1FD /* locale.cpp */,
+				EF53F7C019F97C980040B1FD /* Makefile */,
+				EF53F7C119F97C980040B1FD /* map */,
+				EF53F7C219F97C980040B1FD /* map.cpp */,
+				EF53F7C319F97C980040B1FD /* memory */,
+				EF53F7C419F97C980040B1FD /* new */,
+				EF53F7C519F97C980040B1FD /* new_handler.cpp */,
+				EF53F7C619F97C980040B1FD /* new_op.cpp */,
+				EF53F7C719F97C980040B1FD /* new_opnt.cpp */,
+				EF53F7C819F97C980040B1FD /* new_opv.cpp */,
+				EF53F7C919F97C980040B1FD /* new_opvnt.cpp */,
+				EF53F7CA19F97C980040B1FD /* numeric */,
+				EF53F7CB19F97C980040B1FD /* numeric.cpp */,
+				EF53F7CC19F97C980040B1FD /* ostream */,
+				EF53F7CD19F97C980040B1FD /* ostream.cpp */,
+				EF53F7CE19F97C980040B1FD /* ostream_helpers */,
+				EF53F7CF19F97C980040B1FD /* queue */,
+				EF53F7D019F97C980040B1FD /* queue.cpp */,
+				EF53F7D119F97C980040B1FD /* README.md */,
+				EF53F7D219F97C980040B1FD /* serstream */,
+				EF53F7D319F97C980040B1FD /* set */,
+				EF53F7D419F97C980040B1FD /* set.cpp */,
+				EF53F7D519F97C980040B1FD /* sstream */,
+				EF53F7D619F97C980040B1FD /* sstream.cpp */,
+				EF53F7D719F97C980040B1FD /* stack */,
+				EF53F7D819F97C980040B1FD /* stack.cpp */,
+				EF53F7D919F97C980040B1FD /* StandardCplusplus.h */,
+				EF53F7DA19F97C980040B1FD /* stdexcept */,
+				EF53F7DB19F97C980040B1FD /* stdexcept.cpp */,
+				EF53F7DC19F97C980040B1FD /* streambuf */,
+				EF53F7DD19F97C980040B1FD /* streambuf.cpp */,
+				EF53F7DE19F97C980040B1FD /* string */,
+				EF53F7DF19F97C980040B1FD /* string.cpp */,
+				EF53F7E019F97C980040B1FD /* string_iostream */,
+				EF53F7E119F97C980040B1FD /* support */,
+				EF53F7E219F97C980040B1FD /* support.cpp */,
+				EF53F7E319F97C980040B1FD /* system_configuration.h */,
+				EF53F7E419F97C980040B1FD /* type_traits */,
+				EF53F7E519F97C980040B1FD /* typeinfo */,
+				EF53F7E619F97C980040B1FD /* typeinfo.cpp */,
+				EF53F7E719F97C980040B1FD /* uartbuf */,
+				EF53F7E819F97C980040B1FD /* unwind-cxx.h */,
+				EF53F7E919F97C980040B1FD /* utility.cpp */,
+				EF53F7EA19F97C980040B1FD /* utility.h */,
+				EF53F7EB19F97C980040B1FD /* valarray */,
+				EF53F7EC19F97C980040B1FD /* valarray.cpp */,
+				EF53F7ED19F97C980040B1FD /* vector */,
+				EF53F7EE19F97C980040B1FD /* vector.cpp */,
+			);
+			path = StandardCplusplus;
+			sourceTree = "<group>";
+		};
+		EF53F79A19F97C970040B1FD /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F79B19F97C970040B1FD /* serstream */,
+				EF53F7A119F97C970040B1FD /* string_vector */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		EF53F79B19F97C970040B1FD /* serstream */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F79C19F97C970040B1FD /* Jamfile */,
+				EF53F79D19F97C970040B1FD /* more.cpp */,
+				EF53F79E19F97C970040B1FD /* runtests.sh */,
+				EF53F79F19F97C970040B1FD /* serstream.ino */,
+				EF53F7A019F97C970040B1FD /* test.ex */,
+			);
+			path = serstream;
+			sourceTree = "<group>";
+		};
+		EF53F7A119F97C970040B1FD /* string_vector */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F7A219F97C970040B1FD /* Jamfile */,
+				EF53F7A319F97C970040B1FD /* string_vector.ino */,
+			);
+			path = string_vector;
+			sourceTree = "<group>";
+		};
+		EF53F7EF19F97C980040B1FD /* TSIC */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F7F019F97C980040B1FD /* examples */,
+				EF53F7F319F97C980040B1FD /* keywords.txt */,
+				EF53F7F419F97C980040B1FD /* LICENSE.md */,
+				EF53F7F519F97C980040B1FD /* README.md */,
+				EF53F7F619F97C980040B1FD /* TSIC.cpp */,
+				EF53F7F719F97C980040B1FD /* TSIC.h */,
+			);
+			path = TSIC;
+			sourceTree = "<group>";
+		};
+		EF53F7F019F97C980040B1FD /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F7F119F97C980040B1FD /* example_tsic */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		EF53F7F119F97C980040B1FD /* example_tsic */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F7F219F97C980040B1FD /* example_tsic.ino */,
+			);
+			path = example_tsic;
+			sourceTree = "<group>";
+		};
+		EF53F7F819F97C980040B1FD /* XBee */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F7F919F97C980040B1FD /* COPYING */,
+				EF53F7FA19F97C980040B1FD /* examples */,
+				EF53F80F19F97C980040B1FD /* keywords.txt */,
+				EF53F81019F97C980040B1FD /* XBee.cpp */,
+				EF53F81119F97C980040B1FD /* XBee.h */,
+			);
+			path = XBee;
+			sourceTree = "<group>";
+		};
+		EF53F7FA19F97C980040B1FD /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F7FB19F97C980040B1FD /* AtCommand */,
+				EF53F7FD19F97C980040B1FD /* RemoteAtCommand */,
+				EF53F7FF19F97C980040B1FD /* Series1_IoSamples */,
+				EF53F80119F97C980040B1FD /* Series1_Rx */,
+				EF53F80319F97C980040B1FD /* Series1_Tx */,
+				EF53F80519F97C980040B1FD /* Series2_IoSamples */,
+				EF53F80719F97C980040B1FD /* Series2_Rx */,
+				EF53F80919F97C980040B1FD /* Series2_Rx_Nss */,
+				EF53F80B19F97C980040B1FD /* Series2_Sleep */,
+				EF53F80D19F97C980040B1FD /* Series2_Tx */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		EF53F7FB19F97C980040B1FD /* AtCommand */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F7FC19F97C980040B1FD /* AtCommand.pde */,
+			);
+			path = AtCommand;
+			sourceTree = "<group>";
+		};
+		EF53F7FD19F97C980040B1FD /* RemoteAtCommand */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F7FE19F97C980040B1FD /* RemoteAtCommand.pde */,
+			);
+			path = RemoteAtCommand;
+			sourceTree = "<group>";
+		};
+		EF53F7FF19F97C980040B1FD /* Series1_IoSamples */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F80019F97C980040B1FD /* Series1_IoSamples.pde */,
+			);
+			path = Series1_IoSamples;
+			sourceTree = "<group>";
+		};
+		EF53F80119F97C980040B1FD /* Series1_Rx */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F80219F97C980040B1FD /* Series1_Rx.pde */,
+			);
+			path = Series1_Rx;
+			sourceTree = "<group>";
+		};
+		EF53F80319F97C980040B1FD /* Series1_Tx */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F80419F97C980040B1FD /* Series1_Tx.pde */,
+			);
+			path = Series1_Tx;
+			sourceTree = "<group>";
+		};
+		EF53F80519F97C980040B1FD /* Series2_IoSamples */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F80619F97C980040B1FD /* Series2_IoSamples.pde */,
+			);
+			path = Series2_IoSamples;
+			sourceTree = "<group>";
+		};
+		EF53F80719F97C980040B1FD /* Series2_Rx */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F80819F97C980040B1FD /* Series2_Rx.pde */,
+			);
+			path = Series2_Rx;
+			sourceTree = "<group>";
+		};
+		EF53F80919F97C980040B1FD /* Series2_Rx_Nss */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F80A19F97C980040B1FD /* Series2_Rx_Nss.pde */,
+			);
+			path = Series2_Rx_Nss;
+			sourceTree = "<group>";
+		};
+		EF53F80B19F97C980040B1FD /* Series2_Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F80C19F97C980040B1FD /* Series2_Sleep.pde */,
+			);
+			path = Series2_Sleep;
+			sourceTree = "<group>";
+		};
+		EF53F80D19F97C980040B1FD /* Series2_Tx */ = {
+			isa = PBXGroup;
+			children = (
+				EF53F80E19F97C980040B1FD /* Series2_Tx.pde */,
+			);
+			path = Series2_Tx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		EF53F6D919F97B480040B1FD /* All */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "all -C \"$(PROJECT)\"";
+			buildConfigurationList = EF53F73A19F97B480040B1FD /* Build configuration list for PBXLegacyTarget "All" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = All;
+			passBuildSettingsInEnvironment = 1;
+			productName = All;
+		};
+		EF53F6DA19F97B480040B1FD /* Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "build -C \"$(PROJECT)\"";
+			buildConfigurationList = EF53F73D19F97B480040B1FD /* Build configuration list for PBXLegacyTarget "Build" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Build;
+			passBuildSettingsInEnvironment = 1;
+			productName = Build;
+		};
+		EF53F6DB19F97B480040B1FD /* Serial */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "serial -C \"$(PROJECT)\"";
+			buildConfigurationList = EF53F74019F97B480040B1FD /* Build configuration list for PBXLegacyTarget "Serial" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Serial;
+			passBuildSettingsInEnvironment = 1;
+			productName = Serial;
+		};
+		EF53F6DC19F97B480040B1FD /* Upload */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "upload -C \"$(PROJECT)\"";
+			buildConfigurationList = EF53F74319F97B480040B1FD /* Build configuration list for PBXLegacyTarget "Upload" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Upload;
+			passBuildSettingsInEnvironment = 1;
+			productName = Upload;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		EF53F6DE19F97B480040B1FD /* Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF53F74619F97B480040B1FD /* Build configuration list for PBXNativeTarget "Index" */;
+			buildPhases = (
+				EF53F6DD19F97B480040B1FD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Index;
+			productName = Index;
+			productReference = EF53F6DF19F97B480040B1FD /* Index */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF53F6D519F97B480040B1FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jakub Wozniak";
+				TargetAttributes = {
+					EF53F6D919F97B480040B1FD = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EF53F6DA19F97B480040B1FD = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EF53F6DB19F97B480040B1FD = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EF53F6DC19F97B480040B1FD = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EF53F6DE19F97B480040B1FD = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = EF53F6D819F97B480040B1FD /* Build configuration list for PBXProject "BoilerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF53F6D419F97B480040B1FD;
+			productRefGroup = EF53F6E019F97B480040B1FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF53F6D919F97B480040B1FD /* All */,
+				EF53F6DA19F97B480040B1FD /* Build */,
+				EF53F6DB19F97B480040B1FD /* Serial */,
+				EF53F6DC19F97B480040B1FD /* Upload */,
+				EF53F6DE19F97B480040B1FD /* Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF53F6DD19F97B480040B1FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF53F82719F97C980040B1FD /* iomanip.cpp in Sources */,
+				EF53F81519F97C980040B1FD /* algorithm.cpp in Sources */,
+				EF53F83E19F97C980040B1FD /* stdexcept.cpp in Sources */,
+				EF53F82019F97C980040B1FD /* eh_globals.cpp in Sources */,
+				EF53F84519F97C980040B1FD /* vector.cpp in Sources */,
+				EF53F83819F97C980040B1FD /* ostream.cpp in Sources */,
+				EF53F83119F97C980040B1FD /* map.cpp in Sources */,
+				EF53F82C19F97C980040B1FD /* Jamfile in Sources */,
+				EF53F82819F97C980040B1FD /* ios.cpp in Sources */,
+				EF53F83C19F97C980040B1FD /* sstream.cpp in Sources */,
+				EF53F84119F97C980040B1FD /* support.cpp in Sources */,
+				EF53F81F19F97C980040B1FD /* eh_alloc.cpp in Sources */,
+				EF53F82D19F97C980040B1FD /* limits.cpp in Sources */,
+				EF53F6E819F97B480040B1FD /* Makefile in Sources */,
+				EF53F81A19F97C980040B1FD /* del_op.cpp in Sources */,
+				EF53F82F19F97C980040B1FD /* locale.cpp in Sources */,
+				EF53F81619F97C980040B1FD /* associative_base.cpp in Sources */,
+				EF53F82319F97C980040B1FD /* Jamfile in Sources */,
+				EF53F81B19F97C980040B1FD /* del_opnt.cpp in Sources */,
+				EF53F81319F97C980040B1FD /* rgb_lcd.cpp in Sources */,
+				EF53F84619F97C980040B1FD /* LICENSE.md in Sources */,
+				EF53F84219F97C980040B1FD /* typeinfo.cpp in Sources */,
+				EF53F82419F97C980040B1FD /* exception.cpp in Sources */,
+				EF53F82219F97C980040B1FD /* more.cpp in Sources */,
+				EF53F82A19F97C980040B1FD /* istream.cpp in Sources */,
+				EF53F83919F97C980040B1FD /* queue.cpp in Sources */,
+				EF53F81919F97C980040B1FD /* complex.cpp in Sources */,
+				EF53F83419F97C980040B1FD /* new_opnt.cpp in Sources */,
+				EF53F83019F97C980040B1FD /* Makefile in Sources */,
+				EF53F84919F97C980040B1FD /* XBee.cpp in Sources */,
+				EF53F6E319F97B480040B1FD /* main.cpp in Sources */,
+				EF53F82619F97C980040B1FD /* func_exception.cpp in Sources */,
+				EF53F82B19F97C980040B1FD /* iterator.cpp in Sources */,
+				EF53F84019F97C980040B1FD /* string.cpp in Sources */,
+				EF53F81219F97C980040B1FD /* README.md in Sources */,
+				EF53F83B19F97C980040B1FD /* set.cpp in Sources */,
+				EF53F82E19F97C980040B1FD /* list.cpp in Sources */,
+				EF53F6E519F97B480040B1FD /* LocalLibrary.cpp in Sources */,
+				EF53F84419F97C980040B1FD /* valarray.cpp in Sources */,
+				EF53F81719F97C980040B1FD /* bitset.cpp in Sources */,
+				EF53F83219F97C980040B1FD /* new_handler.cpp in Sources */,
+				EF53F83F19F97C980040B1FD /* streambuf.cpp in Sources */,
+				EF53F81D19F97C980040B1FD /* del_opvnt.cpp in Sources */,
+				EF53F83619F97C980040B1FD /* new_opvnt.cpp in Sources */,
+				EF53F82519F97C980040B1FD /* fstream.cpp in Sources */,
+				EF53F84819F97C980040B1FD /* TSIC.cpp in Sources */,
+				EF53F81819F97C980040B1FD /* char_traits.cpp in Sources */,
+				EF53F82919F97C980040B1FD /* iostream.cpp in Sources */,
+				EF53F83319F97C980040B1FD /* new_op.cpp in Sources */,
+				EF53F81419F97C980040B1FD /* SimpleList.cpp in Sources */,
+				EF53F82119F97C980040B1FD /* Jamfile in Sources */,
+				EF53F83519F97C980040B1FD /* new_opv.cpp in Sources */,
+				EF53F81E19F97C980040B1FD /* deque.cpp in Sources */,
+				EF53F84719F97C980040B1FD /* README.md in Sources */,
+				EF53F83719F97C980040B1FD /* numeric.cpp in Sources */,
+				EF53F83D19F97C980040B1FD /* stack.cpp in Sources */,
+				EF53F83A19F97C980040B1FD /* README.md in Sources */,
+				EF53F81C19F97C980040B1FD /* del_opv.cpp in Sources */,
+				EF53F84319F97C980040B1FD /* utility.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF53F73819F97B480040B1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF53F6FA19F97B480040B1FD /* Arduino Uno.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PATH = "$(PATH):$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKETCHBOOK_DIR = "";
+				SKETCH_EXTENSION = ino;
+			};
+			name = Debug;
+		};
+		EF53F73919F97B480040B1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PATH = "$(PATH):$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKETCHBOOK_DIR = "";
+				SKETCH_EXTENSION = ino;
+			};
+			name = Release;
+		};
+		EF53F73B19F97B480040B1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF53F73C19F97B480040B1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF53F73E19F97B480040B1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		EF53F73F19F97B480040B1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		EF53F74119F97B480040B1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		EF53F74219F97B480040B1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		EF53F74419F97B480040B1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		EF53F74519F97B480040B1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		EF53F74719F97B480040B1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		EF53F74819F97B480040B1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF53F6D819F97B480040B1FD /* Build configuration list for PBXProject "BoilerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF53F73819F97B480040B1FD /* Debug */,
+				EF53F73919F97B480040B1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF53F73A19F97B480040B1FD /* Build configuration list for PBXLegacyTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF53F73B19F97B480040B1FD /* Debug */,
+				EF53F73C19F97B480040B1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF53F73D19F97B480040B1FD /* Build configuration list for PBXLegacyTarget "Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF53F73E19F97B480040B1FD /* Debug */,
+				EF53F73F19F97B480040B1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF53F74019F97B480040B1FD /* Build configuration list for PBXLegacyTarget "Serial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF53F74119F97B480040B1FD /* Debug */,
+				EF53F74219F97B480040B1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF53F74319F97B480040B1FD /* Build configuration list for PBXLegacyTarget "Upload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF53F74419F97B480040B1FD /* Debug */,
+				EF53F74519F97B480040B1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF53F74619F97B480040B1FD /* Build configuration list for PBXNativeTarget "Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF53F74719F97B480040B1FD /* Debug */,
+				EF53F74819F97B480040B1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF53F6D519F97B480040B1FD /* Project object */;
+}

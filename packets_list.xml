@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+  <loop>false</loop>
+  <repeat_times>1</repeat_times>
+  <repeat_period>500</repeat_period>
+  <packets_list>
+    <packet name="packet_0">
+      <payload>7B313B313B32302E317D7B313B313B32302E327D</payload>
+    </packet>
+    <packet name="packet_1">
+      <payload>7B323B313431343837333930357D</payload>
+    </packet>
+    <packet name="packet_2">
+      <payload>7B323B313431343837353831317D</payload>
+    </packet>
+    <packet name="packet_3">
+      <payload>7B333B303B373B303B373B34303B31313B31303B32312E357D</payload>
+    </packet>
+    <packet name="packet_4">
+      <payload>7B333B303B373B313B31313B34303B31323B31303B32322E31357D</payload>
+    </packet>
+    <packet name="packet_5">
+      <payload>7B333B303B373B343B373B34303B31313B31303B32312E357D</payload>
+    </packet>
+  </packets_list>
+</data>
